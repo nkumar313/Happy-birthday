@@ -1,0 +1,76 @@
+gsap.from(".header",{
+    opacity:0,
+    duration:1,
+    rotate: 360,
+    duration:2,
+    delay:1,
+    y:500,
+    delay:1,
+    stagger:0.5
+})
+gsap.from(".hi",{
+    opacity:0,
+    duration:3,
+    y:30,
+    delay:0.5,
+    stagger:0.5
+})
+gsap.from(".bg3",{
+    opacity:0,
+    duration:4.5,
+    x:200,
+    delay:0.5,
+
+})
+gsap.from(".bg",{
+    opacity:0,
+    duration:5,
+    x:-200,
+    delay:0.5,
+
+})
+gsap.from(".footer",{
+    opacity:0,
+    duration:5.5,
+    x:-200,
+    delay:0.5,
+
+})
+gsap.from(".navbar",{
+    opacity:0,
+    duration:5.5,
+    x:-200,
+    delay:0.5,
+})
+gsap.to(".imag",{
+    duration:5.5,
+    y:900,
+    x:100,
+    delay:0.5,
+})
+gsap.to(".im",{
+    duration:5.5,
+    y:1200,
+    x:850,
+    delay:0.5,
+})
+gsap.to(".inag",{
+    duration:5.5,
+    y:1500,
+    x:-420,
+})
+gsap.to(".ina",{
+    duration:5.5,
+    y:1800,
+    x:340,
+})
+gsap.to(".igag",{
+    duration:5.5,
+    y:2100,
+    x:-1000,
+})
+gsap.to(".iga",{
+    duration:5.5,
+    y:2300,
+    x:1090,
+})
